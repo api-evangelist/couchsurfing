@@ -1,8 +1,12 @@
 aid: couchsurfing
 name: Couchsurfing
-description: Couchsurfing is a company surfaced as a portfolio company of general-catalyst, point-nine
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: Couchsurfing is a community-driven travel and hospitality-exchange platform that connects
+  travelers with local hosts offering free accommodation, local meetups, and cultural exchange across
+  more than 200,000 cities worldwide. Members build trust through verified profiles, references, and
+  community events, and use the service to find places to stay, meet locals, and discover events while
+  traveling. Couchsurfing publishes no official public developer API or developer portal; this API
+  Evangelist profile tracks the company's public web, trust, and policy surface for discovery and
+  monitoring, and was originally surfaced as a portfolio company of General Catalyst and Point Nine.
 url: https://raw.githubusercontent.com/api-evangelist/couchsurfing/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +15,29 @@ x-backed-by:
 - point-nine
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.couchsurfing.com/images/social-banner.png
 tags:
 - Company
+- Travel
+- Hospitality
+- Community
+- Social
+- Accommodation
+- Marketplace
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.couchsurfing.com
+- type: Blog
+  url: https://blog.couchsurfing.com
+- type: Support
+  url: https://support.couchsurfing.org/hc/en-us
+- type: TermsOfService
+  url: https://support.couchsurfing.org/hc/en-us/articles/360003344313-Terms-of-Use
+- type: PrivacyPolicy
+  url: https://support.couchsurfing.org/hc/en-us/articles/360003320394-Privacy-Policy
+- type: DomainSecurity
+  url: security/couchsurfing-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
